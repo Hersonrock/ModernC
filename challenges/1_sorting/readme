@@ -1,0 +1,29 @@
+---README----
+
+
+On this project I'll need to make two sorting algorithm programs. Which should
+sort a set of randomly generated numbers and output to file.
+I will also need to create a program that checks the resulting file.
+
+Requirements:
+
+1) There must be a makefile
+2) Sorting algorithms must have their own .c file.
+3) There a separate .c file for the test program.
+4) There must be a separate .c file for read and write to file.
+5) There must be a random number generator as well, I will be using /dev/urandom
+6) I must specify a LIMITS constant on a header file, so I can control how 
+many numbers I will be generating and sorting.
+7) there must be a time output so I can compare how much time it took to execute
+the programs. Similar to the /usr/bin/time function.
+8) The sorting functions will just take an array of doubles and output a
+sorted array.
+
+
+---Project Journal----
+
+Monday, June 03, 2024
+
+I'll start with making the write to file function. The requirement is simple,
+it will take an array[n] of doubles and write them to a file in csv format.
+
