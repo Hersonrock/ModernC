@@ -5,7 +5,7 @@ int writeOut(double *inputArray){
         FILE *fd;
         const char *mode = "w";
 
-        fd = fopen(OUT_PATH, mode);
+        fd = fopen(IN_PATH, mode);
         if(fd == NULL){
                 perror("Error opening output file.\n");
                 return EXIT_FAILURE;
