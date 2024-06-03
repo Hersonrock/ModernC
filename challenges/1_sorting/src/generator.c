@@ -6,7 +6,11 @@ int randGen(){
 	srand(time(NULL));
 
 	for(size_t i = 0; i < SIZE_LIMIT ; i++){
-		numbers[i] = (double)(rand() % 100000 + 1) / 100;
+                int value = rand() % 100000;
+		numbers[i] = (double)value / 100;
+                if(value % 2 == 0) {
+                        numbers[i] *= -1;
+                }
 	}
         
         writeOut(numbers);
