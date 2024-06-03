@@ -14,12 +14,7 @@ int writeOut(double *inputArray){
         //Creating csv file with line break before EOF
         for(size_t i = 0; i < SIZE_LIMIT; i++){
                 fprintf(fd, "%f", inputArray[i]);
-                if(i != SIZE_LIMIT - 1){
-                        fprintf(fd, ",");
-                }
-                else{
-                        fprintf(fd, "\n");
-                }
+                (i != SIZE_LIMIT - 1) ? fprintf(fd, ",") : fprintf(fd, "\n");
         }
         
         fclose(fd);
