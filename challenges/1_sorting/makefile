@@ -4,10 +4,11 @@ CFLAGS=-std=c2x -Wall -g
 NAME=main
 #----Dependencies---#
 DEP1=fileio
+DEP2=generator
 #------------#
 IDIR=./include
 DEPS=$(IDIR)/$(DEP1).h
-OBJ=./src/main.o ./src/$(DEP1).o
+OBJ=./src/main.o ./src/$(DEP1).o ./src/$(DEP2).o
 
 %.o:%.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS) -I$(IDIR)
