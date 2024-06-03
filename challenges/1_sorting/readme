@@ -24,6 +24,6 @@ sorted array.
 
 Monday, June 03, 2024
 
-I'll start with making the write to file function. The requirement is simple,
+[DONE]I'll start with making the write to file function. The requirement is simple,
 it will take an array[n] of doubles and write them to a file in csv format.
 
