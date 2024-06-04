@@ -7,12 +7,17 @@
 #include<string.h>
 #include<sys/types.h>
 #include<time.h>
+#include<math.h>
+#include<errno.h>
 
-#define SIZE_LIMIT 1000 
+#define NUM_DOUBLES 1000 
+#define NUM_DIGITS 5
+#define MAX_FILE_SIZE (NUM_DIGITS + 3) * NUM_DOUBLES + 1 
 #define OUT_PATH "./output_sorted.csv"
 #define IN_PATH "./input_raw.csv"
 
-int writeOut(double *inputArray);
+int writeIn(double *inputArray, char *path);
 int randGen();
+int writeArray(char *path, double *outputArray);
 
 #endif // FILE_IO
