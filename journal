@@ -11,3 +11,9 @@ structure, header files, makefile and a journal with requisites and next steps
 
 I'll continue tomorrow
 
+Tuesday, June 04, 2024
+
+Continuing work on Challenge 1, is going well! I had some problems with the 
+strtod() function, but nothing that some GDB did not help with.
+
+
