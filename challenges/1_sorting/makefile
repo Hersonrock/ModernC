@@ -8,7 +8,7 @@ DEP2=generator
 DEP3=test
 #------------#
 IDIR=./include
-DEPS=$(IDIR)/$(DEP1).h
+DEPS=$(IDIR)/$(DEP1).h $(IDIR)/$(DEP3).h
 OBJ=./src/main.o ./src/$(DEP1).o ./src/$(DEP2).o ./src/$(DEP3).o
 
 %.o:%.c $(DEPS)
