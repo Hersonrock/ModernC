@@ -20,4 +20,8 @@ int writeIn(double *inputArray, char *path);
 int randGen();
 int writeArray(char *path, double *outputArray);
 
+//---Debug Functions
+
+int testIncrementalOrder(char *path);
+
 #endif // FILE_IO

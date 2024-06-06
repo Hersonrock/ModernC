@@ -30,7 +30,7 @@ format.
 [DONE] Now I can start working on the random generator, the goal is for it to
 create a csv file with 1000 signed doubles for me to sort.
 
-Tuesday, June 04, 2024
+Tuesday, June 04, 2024-----
 
 [DONE]Need to create a function that reads csv from a file and returns an 
 array[n]of doubles.
@@ -40,4 +40,4 @@ Pending requirements  2, 3, 7, 8
 [PENDING] Next I will be creating the test program, which requires me to think
 of a fast algorithm that can confirm if a file is sorted or not. Might be easy
 now that I think about it. Should have a single pass on the array and break when
-a numbe is gt or lt depending if the order is asc or desc
+a number is gt or lt depending if the order is asc or desc
