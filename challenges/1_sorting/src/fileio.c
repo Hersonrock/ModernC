@@ -21,7 +21,7 @@ void readFile(char *buffer, size_t size, size_t nmemb, char *path){
         fd = openFile(path, mode); 
 
         int readItems = fread(buffer, size, nmemb, fd);
-        printf("readItems = %d\n", readItems);
+        //printf("readItems = %d\n", readItems);
         if ( feof(fd) == 0 ){ // ignored if the whole file is read
                 if ( ferror(fd) != 0){
                         printf("Error reached when reading file\n");
