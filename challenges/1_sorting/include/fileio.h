@@ -23,5 +23,6 @@ int writeArray(char *path, double *outputArray);
 //---Debug Functions
 
 int testIncrementalOrder(char *path);
+int testDecreasingOrder(char *path);
 
 #endif // FILE_IO
