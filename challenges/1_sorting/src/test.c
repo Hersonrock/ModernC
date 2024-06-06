@@ -8,7 +8,7 @@ int testIncrementalOrder(char *path){
 
         writeArray(path, evaluatedArray);
 
-        for(size_t i = 0 ; i < NUM_DOUBLES; i++){
+        for(size_t i = 0 ; i < NUM_DOUBLES - 1; i++){
                 double factor = evaluatedArray[i + 1] - evaluatedArray[i];
                 if(factor < 0)
                 {
@@ -33,7 +33,7 @@ int testDecreasingOrder(char *path){
 
         writeArray(path, evaluatedArray);
 
-        for(size_t i = 0 ; i < NUM_DOUBLES; i++){
+        for(size_t i = 0 ; i < NUM_DOUBLES - 1; i++){
                 double factor =  evaluatedArray[i] - evaluatedArray[i + 1];
                 if(factor < 0)
                 {
