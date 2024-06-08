@@ -37,7 +37,15 @@ array[n]of doubles.
 
 Pending requirements  2, 3, 7, 8
 
-[PENDING] Next I will be creating the test program, which requires me to think
+[DONE] Next I will be creating the test program, which requires me to think
 of a fast algorithm that can confirm if a file is sorted or not. Might be easy
 now that I think about it. Should have a single pass on the array and break when
 a number is gt or lt depending if the order is asc or desc
+
+[DONE] Created both sorting algorithms quick sort and merge sort
+
+Peding requirements 7 
+
+[PENDING] need to make a time function that prints how much time the algorithm 
+took to run
+
