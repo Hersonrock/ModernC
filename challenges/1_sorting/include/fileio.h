@@ -10,7 +10,7 @@
 #include<math.h>
 #include<errno.h>
 
-#define NUM_DOUBLES 1000 
+#define NUM_DOUBLES 100 
 #define NUM_DIGITS 5
 #define MAX_FILE_SIZE (NUM_DIGITS + 3) * NUM_DOUBLES + 1 
 #define OUT_PATH "./output_sorted.csv"
