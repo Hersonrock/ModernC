@@ -1,4 +1,5 @@
-#include "../include/fileio.h"
+#include"../include/fileio.h"
+#include <time.h>
 
 int randGen(){
         
