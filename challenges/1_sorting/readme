@@ -46,6 +46,6 @@ a number is gt or lt depending if the order is asc or desc
 
 Peding requirements 7 
 
-[PENDING] need to make a time function that prints how much time the algorithm 
+[DONE] need to make a time function that prints how much time the algorithm 
 took to run
 

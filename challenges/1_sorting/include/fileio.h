@@ -9,6 +9,7 @@
 #include<time.h>
 #include<math.h>
 #include<errno.h>
+#include<sys/time.h>
 
 #define NUM_DOUBLES 10000
 #define NUM_DIGITS 5

@@ -1,18 +1,21 @@
-#include "../include/time.h"
-#include<stdio.h>
+#include "../include/fileio.h"
 
 double getTime(){
-        double time;
-        struct tms buf;
-        long clkTick = sysconf(_SC_CLK_TCK);
-        long value;
 
-        value = times(&buf);
-        //debug print
-        printf("value: %ld\n", value); 
-        //
-        
-        time = (double)buf.tms_utime/(double)clkTick;
+        struct timeval tv;
+        double startT;
+        double miliStartT;
+        const double microFactor = 1000000;
+        double time;
+
+        gettimeofday(&tv, NULL);
+        startT = tv.tv_sec;
+        miliStartT = (double)tv.tv_usec / microFactor;
+
+        printf("seconds since Epoc: %ld\n", (long)startT);
+        printf("additional μs %ld\n", tv.tv_usec);
+
+        time = startT + miliStartT;
 
         return time;
 }

@@ -9,7 +9,6 @@ int main(int argc, char *argv[argc + 1]){
         double *array = (double *)malloc(sizeof(double) * NUM_DOUBLES);
         double startT,elapsedT;
 
-
         randGen();
         writeArray(IN_PATH, array);
 
@@ -22,7 +21,8 @@ int main(int argc, char *argv[argc + 1]){
 
         testIncrementalOrder(OUT_PATH);
         testDecreasingOrder(OUT_PATH);
-        printf("Elapsed Time: %lf\n", elapsedT - startT);
+
+        printf("Execution took %f\n", elapsedT - startT);
 
         free(array);
 

@@ -26,3 +26,23 @@ over these last days I completed the algorthms for quick and merge sort.
 I'm only pending a time function. 
 
 I struggled a lot with quick sort, I need to learn more about it.
+
+Sunday, June 09, 2024
+
+Today I implemented the time function but is not working. Its not giving me any
+time difference between start and end of the function.
+I have downloaded https://mirrors.ocf.berkeley.edu/gnu/time/time-1.9.tar.gz
+to try and read how /usr/bin/time was implemented but no luck so far on 
+understanding it.
+
+I'll keep working on it tomorrow
+
+
+Monday, June 10, 2024
+
+Finished this challenge! I completed all requirements.
+Found out that given the kind of data I'm using quick sort is faster
+This was a really nice project and I'm sure I can improve it a lot.
+
+I'm sure will look at it in a few months for now and see a lot of things that 
+I've could have done better, thats the goal.
